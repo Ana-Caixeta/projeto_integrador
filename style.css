@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #FFFEF5;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: #C1EBBD;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 4px 0 #000;
+}
+
+header img {
+  height: 75%;
+  margin: auto;
+  margin-left: 120px;
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  font: 1rem "Roboto", sans-serif;
+  color: #490084;
+  font-weight: bold;
+  padding: 20px;
+}
+
+nav a:hover {
+  color: #4f4f8f;
+}
+
+article {
+  margin: 60px 120px 60px 120px;
+}
+
+p {
+  text-align: justify;
+  font: 1rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+article p {
+  padding-bottom: 15px;
+}
+
+/* Ajuste para evitar corte de conteúdo ao usar o link de navegação do menu */
+section{
+  scroll-margin-top: 80px;
+}
+
+/* Três Leis Naturais*/
+
+#tres-leis-naturais {
+  background-color: #C1EBBD;
+}
+
+#section-color {
+  padding: 60px 120px 60px 120px;
+}
+
+#tres-leis-naturais h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  padding-bottom: 30px;
+}
+
+.container-tres-leis img {
+  width: 123px;
+  height: 129px;
+}
+
+#tres-leis-naturais h3{
+  font: 1.6rem "Maitree", serif;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+#tres-leis-naturais p{
+  text-align: justify;
+}
+
+.container-tres-leis{
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.content-tres-leis{
+  margin-left: 20px;
+  align-self: center;
+}
+
+/* Serviços */
+
+#pag-servicos{
+  padding: 60px 120px 60px 120px;
+}
+
+#pag-servicos h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#container-servicos {
+  display: flex;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.card-servicos {
+  width: 25%;
+  background-color: #c1ebbd;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-servicos:hover{
+  background-color: #d5ffd0;
+}
+
+#pag-servicos h3 {
+  text-align: center;
+  font: 1.1rem "Maitree", serif;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.card-servicos p {
+  text-align: justify;
+  padding: 10px;
+}
+
+/* Sobre Mim */
+
+#pag-sobre-mim {
+  background-color: #C1EBBD;
+  padding: 60px 120px 60px 120px;
+}
+
+#container-sobremim {
+  display: flex;
+  gap: 70px;
+}
+
+#pag-sobre-mim img {
+  width: 362px;
+  height: 460px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 2px 2px #00000054;
+}
+
+.card-sobremim h3 {
+  display: inline-block;
+  background-color: #490084;
+  color: #FFFEF5;
+  padding: 9px;
+}
+
+.card-sobremim h3:hover{
+  background-color: #4f4f8f;
+}
+
+.card-sobremim h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  padding: 30px 0 30px 0;
+}
+
+/* Agendamentos */
+
+#pag-agendamentos{
+  padding: 30px 120px 60px 120px;
+}
+
+#pag-agendamentos h2 {
+  font: 2rem "Maitree", serif;
+  font-weight: 500;
+  color: #490084;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+
+#container-agendamentos {
+  display: flex;
+  margin: 60px 120px 80px 120px;
+  gap: 1300px;
+}
+
+li{
+  text-align: justify;
+  font: 1rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+ul{
+  padding: 20px 0 20px 15px;
+}
+
+#formulario {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label{
+  text-align: justify;
+  font: 1rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+input, select{
+  text-align: justify;
+  font: 0.8rem "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-left: 5px;
+  margin: 6px 0 10px 0;
+  width: 300px;
+  height: 25px;
+  border: #aaaaaa solid 1px;
+  border-radius: 3px;
+}
+
+select{
+  width: 309px;
+  color: #3d3d3d;
+}
+
+#data-horario{
+  display: flex;
+  gap: 20px;
+}
+
+#data-horario input{
+  width: 137px;
+}
+
+input[type="submit"]{
+  width: 130px;
+  background-color: #85D77E;
+  border: #85D77E;
+  color: #FFF;
+  font-weight: bold;
+  padding: 5px 30px 5px 30px;
+  border-radius: 4px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+/* Mapa */
+.mapBox{
+  position: relative;
+  width: 100%;
+  height: 380px;
+}
+
+.mapBox iframe{
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer */
+footer{
+  background-color: #C1EBBD;
+  padding: 18px 120px 35px 120px;
+}
+
+#pag-contato{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.img-contato{
+  padding: 20px;
+  width: 40px;
+}
+
+footer p{
+  text-align: center;
+  font-weight: 500;
+  color: #490084;
+}
+
+@media only screen and (max-device-width: 900px) {
+  header{
+    height: 300px;
+    display: block;
+  }
+
+  header img{
+    height: 70%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  nav a{
+    font: 1.9rem "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+
+  section{
+    scroll-margin-top: 300px;
+  }
+
+  article p{
+    font: 0.95rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  #tres-leis-naturais h2, #pag-servicos h2, #pag-sobre-mim h2, #pag-agendamentos h2{
+    font: 4rem "Maitree", serif;
+  }
+
+  #tres-leis-naturais h3{
+    font: 3rem "Maitree", serif;
+  }
+
+  #tres-leis-naturais p{
+    font: 2.3rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  #container-servicos{
+    display: block;
+  }
+
+  .card-servicos{
+    width: 95%;
+    margin: 30px auto;
+    padding: 25px 15px 25px 15px;
+  }
+
+  #pag-servicos h3{
+    font: 2rem "Maitree", serif;
+    font-weight: 600;
+  }
+
+  .card-servicos p{
+    font: 2rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  #pag-sobre-mim h3{
+    font: 2rem "Maitree", serif;
+    text-align: center;
+  }
+
+  #pag-sobre-mim p{
+    font: 0.98rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  #container-sobremim{
+    display: block;
+  }
+
+  #pag-sobre-mim img {
+    border-radius: 20px;
+    box-shadow: 7px 7px 2px 2px #00000054;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+  }
+
+  li{
+    margin-bottom: 20px;
+    font: 1rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+
+  #formulario {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  label{
+    font: 2rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  input, select{
+    font: 1.7rem "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 450px;
+    height: 40px;
+  }
+  
+  select{
+    color: #3d3d3d;
+  }
+  
+  #data-horario{
+    display: flex;
+    gap: 20px;
+  }
+  
+  #data-horario input{
+    width: 209px;
+  }
+  
+  input[type="submit"]{
+    width: 230px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 0 auto;
+  }
+
+  #pag-contato{
+    margin: 0 auto;
+  }
+
+  .img-contato{
+    padding: 20px;
+    width: 80px;
+  }
+  
+  footer p{
+    font-size: small;
+  }
+}
